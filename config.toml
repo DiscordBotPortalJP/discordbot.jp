@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Hugo Future Imperfect"
+languageCode = "ja-jp"
+title = "Discord Bot Portal JP"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -13,11 +13,11 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "DiscordBotに関する情報を提供します"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Discord Bot Portal JP"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/post/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -87,22 +87,18 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
-
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
-
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  header    = "Discord Bot Portal JP"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "https://cdn.discordapp.com/attachments/575853714766823436/638404988137111573/4_4_1.png"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+    width     = "100"
+    alt       = "Discord Bot Portal JP"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -123,8 +119,8 @@ canonifyURLs = true
   weight = 2
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Post"
+  url = "/post/"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
@@ -184,7 +180,7 @@ canonifyURLs = true
     qq             = "" # User ID Number
   instagram        = ""
   tumblr           = ""
-  twitter          = "discordbot_jp"
+  twitter          = "discordbotjp"
   skype            = ""
   snapchat         = ""
   pinterest        = ""

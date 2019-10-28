@@ -1,7 +1,9 @@
 ---
-title: "Empty_embed"
+title: "【discord.py】EmptyEmbed関連のエラーについて"
 date: 2019-10-28T18:46:18+09:00
 draft: false
+author: "1ntegrale9"
+tags: ["discord.py", "エラー"]
 ---
 
 埋め込みメッセージ（Embed）あたりを触っていると、  

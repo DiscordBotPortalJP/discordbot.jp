@@ -4,7 +4,7 @@ date: 2019-10-28T18:46:18+09:00
 draft: true
 ---
 
-埋め込みメッセージ（Embed）あたりを触っていると、
+埋め込みメッセージ（Embed）あたりを触っていると、  
 エラーメッセージ内に `_EmptyEmbed` というものが現れる場合があります。
 
 例えば、
@@ -19,11 +19,11 @@ if 'hello' in message.embeds[0].title
 TypeError: argument of type '_EmptyEmbed' is not iterable
 ```
 
-この `_EmptyEmbed` についてはドキュメントに記載されていないので、
-正体はソースコードを読まないと分かりません。
+この `_EmptyEmbed` についてはドキュメントに記載されていないので、  
+正体はソースコードを読まないと分かりません。  
 https://github.com/Rapptz/discord.py/blob/master/discord/embeds.py
 
-`embeds.py` を読むといたるところに `EmptyEmbed` が現れますが、
+`embeds.py` を読むといたるところに `EmptyEmbed` が現れますが、  
 このあたりを読むと役割が分かりやすいと思います。
 
 https://github.com/Rapptz/discord.py/blob/c6539bbc615e22a59455179b8526dc6ae264c2a4/discord/embeds.py#L32-L42
@@ -59,12 +59,12 @@ https://github.com/Rapptz/discord.py/blob/c6539bbc615e22a59455179b8526dc6ae264c2
         self.description = kwargs.get('description', EmptyEmbed)
 ```
 
-ざっくり言えば、setされていないEmbedの要素を仮置きするオブジェクトです。
-なのでEmbedに `title` や `url` や `description` が
+ざっくり言えば、setされていないEmbedの要素を仮置きするオブジェクトです。  
+なのでEmbedに `title` や `url` や `description` が  
 あるかを確認したい時は `EmptyEmbed` 判定をすると良いでしょう。
 
-`_EmptyEmbed` クラスの定義にある通り、
-真偽値(bool)として評価するとFalseが返るので、
+`_EmptyEmbed` クラスの定義にある通り、  
+真偽値(bool)として評価するとFalseが返るので、  
 そのまま if 文に入れて判定しても良いでしょう。
 
 このように。
@@ -74,6 +74,6 @@ if message.embeds[0].title:
     print('title is set')
 ```
 
-因みに冒頭部のエラーの原因は何かを念のため説明すると、
-`title` 要素がsetされている場合は正常に動きますが、
+因みに冒頭部のエラーの原因は何かを念のため説明すると、  
+`title` 要素がsetされている場合は正常に動きますが、  
 そうでない場合に `EmptyEmbed` を操作してしまうというバグです。

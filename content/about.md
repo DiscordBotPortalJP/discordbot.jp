@@ -5,4 +5,4 @@ draft: false
 ---
 
 これはDiscord Bot Portal JPの公式ブログです
-
+Discordはこちら https://discord.gg/FWw6VqQ

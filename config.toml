@@ -124,11 +124,11 @@ canonifyURLs = true
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
+# [[menu.main]]
+#   name = "Itemized"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
 
 [[menu.main]]
   name = "Categories"
@@ -141,6 +141,12 @@ canonifyURLs = true
   url = "/contact/"
   identifier = "fa fa-envelope-o"
   weight = 6
+
+[[menu.main]]
+  name = "Privacy Policy"
+  url = "/privacy_policy/"
+  identifier = "fa fa-list"
+  weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop

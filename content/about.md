@@ -1,8 +1,11 @@
 ---
-title: "about"
-date: 2019-10-27T21:00:21+09:00
+title: "About"
 draft: false
 ---
 
-これはDiscord Bot Portal JPの公式ブログです  
-Discordはこちら https://discord.gg/FWw6VqQ
+# Discord Bot Portal JP 公式ブログ
+
+Discord Bot に関する情報を発信するブログです。  
+Discordコミュニティにはこちらから参加できます。  
+https://discord.gg/FWw6VqQ
+

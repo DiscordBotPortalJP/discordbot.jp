@@ -136,11 +136,11 @@ canonifyURLs = true
   identifier = "fa fa-sitemap"
   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  identifier = "fa fa-envelope-o"
-  weight = 6
+# [[menu.main]]
+#   name = "Contact"
+#   url = "/contact/"
+#   identifier = "fa fa-envelope-o"
+#   weight = 6
 
 [[menu.main]]
   name = "Privacy Policy"

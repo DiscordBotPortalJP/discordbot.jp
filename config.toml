@@ -144,7 +144,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Privacy Policy"
-  url = "/privacy_policy/"
+  url = "/privacy-policy/"
   identifier = "fa fa-list"
   weight = 7
 

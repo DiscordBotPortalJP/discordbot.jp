@@ -1,5 +1,5 @@
 ---
-title: "プライバシーポリシー"
+title: "個人情報保護方針"
 draft: false
 ---
 

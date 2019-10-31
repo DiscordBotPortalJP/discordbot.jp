@@ -1,5 +1,5 @@
 /*@import url(font-awesome.min.css);*/
-/*@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");*/
+/*@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Noto Sans JP:400,800,900");*/
 
 /*
 	Future Imperfect by HTML5 UP
@@ -55,10 +55,10 @@
 	}
 
 	header p {
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Noto Sans JP", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 		line-height: 2.5;
 		margin: -1em 1em 0;
 	}
@@ -194,9 +194,9 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3c3b3b;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Noto Sans JP", Helvetica, sans-serif;
 		font-weight: 800;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 	}
@@ -321,10 +321,10 @@
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
 		border-bottom: 0;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Noto Sans JP", Helvetica, sans-serif;
 		font-size: 0.6em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 		white-space: nowrap;
 	}
 
@@ -387,11 +387,11 @@
 		color: #3c3b3b;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Noto Sans JP", Helvetica, sans-serif;
 		font-size: 0.6em;
 		font-weight: 800;
 		height: 4.8125em;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 		line-height: 4.8125em;
 		padding: 0 2.5em;
 		text-align: center;
@@ -1120,10 +1120,10 @@
 
 					ul.posts article header .published {
 						display: block;
-						font-family: "Raleway", Helvetica, sans-serif;
+						font-family: "Noto Sans JP", Helvetica, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.20em;
 						margin: -0.625em 0 1.7em 0;
 					}
 
@@ -1201,10 +1201,10 @@
 
 			.mini-post header .published {
 				display: block;
-				font-family: "Raleway", Helvetica, sans-serif;
+				font-family: "Noto Sans JP", Helvetica, sans-serif;
 				font-size: 0.6em;
 				font-weight: 400;
-				letter-spacing: 0.25em;
+				letter-spacing: 0.20em;
 				margin: -0.625em 0 1.7em 0;
 			}
 
@@ -1324,10 +1324,10 @@
 				.post > header .meta .published {
 					color: #3c3b3b;
 					display: block;
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: "Noto Sans JP", Helvetica, sans-serif;
 					font-size: 0.7em;
 					font-weight: 800;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.20em;
 					margin-top: 0.5em;
 					white-space: nowrap;
 				}
@@ -1401,10 +1401,10 @@
 				.post > footer .stats li ul li {
 					border-left: solid 1px rgba(160, 160, 160, 0.3);
 					display: inline-block;
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: "Noto Sans JP", Helvetica, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.20em;
 					line-height: 1;
 					margin: 0 0 0 1em;
 					padding: 0 0 0 1em;
@@ -1648,10 +1648,10 @@
 					.itemized > header .meta .published {
 						color: #3c3b3b;
 						display: block;
-						font-family: "Raleway", Helvetica, sans-serif;
+						font-family: "Noto Sans JP", Helvetica, sans-serif;
 						font-size: 0.7em;
 						font-weight: 800;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.20em;
 						margin-top: 0.5em;
 						white-space: nowrap;
 					}
@@ -1701,10 +1701,10 @@
 					.itemized > footer .stats li {
 						border-left: solid 1px rgba(160, 160, 160, 0.3);
 						display: inline-block;
-						font-family: "Raleway", Helvetica, sans-serif;
+						font-family: "Noto Sans JP", Helvetica, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.20em;
 						line-height: 1;
 						margin: 0 0 0 2em;
 						padding: 0 0 0 2em;
@@ -2279,10 +2279,10 @@
 
 				#header .links ul li a {
 					border-bottom: 0;
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: "Noto Sans JP", Helvetica, sans-serif;
 					font-size: 0.7em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.20em;
 				}
 
 		#header .main {
@@ -2654,10 +2654,10 @@
 	#footer .copyright {
 		text-align: center;
 		color: #aaaaaa;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Noto Sans JP", Helvetica, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 	}
 
 /* Back To Top */
@@ -2744,10 +2744,10 @@
 					}
 
 					#menu .links > li a p {
-						font-family: "Raleway", Helvetica, sans-serif;
+						font-family: "Noto Sans JP", Helvetica, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.20em;
 						margin-bottom: 0;
 						text-decoration: none;
 					}
@@ -2927,10 +2927,10 @@
 						}
 
 						#share-menu .links > li a p {
-							font-family: "Raleway", Helvetica, sans-serif;
+							font-family: "Noto Sans JP", Helvetica, sans-serif;
 							font-size: 0.6em;
 							font-weight: 400;
-							letter-spacing: 0.25em;
+							letter-spacing: 0.20em;
 							margin-bottom: 0;
 							text-decoration: none;
 						}

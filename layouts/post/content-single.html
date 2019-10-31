@@ -1,6 +1,11 @@
 <article class="post">
   {{ .Render "header" }}
 
+  {{ .Render "featured" }}
+  <div id="content">
+    {{ .Content }}
+  </div>
+
   {{ if .Site.Params.socialShare }}
     <section id="social-share">
       <ul class="icons">
@@ -8,11 +13,6 @@
       </ul>
     </section>
   {{ end }}
-
-  {{ .Render "featured" }}
-  <div id="content">
-    {{ .Content }}
-  </div>
 
   <footer>
     {{ .Render "footer-category" }}

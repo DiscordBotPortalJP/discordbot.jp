@@ -1,13 +1,5 @@
 <!-- Header -->
 <header id="header">
-    {{ if or .IsHome (not .Site.Params.DynamicTitles) }}
-      <h1><a href="{{ "/" | relURL }}">{{ .Site.Params.navbarTitle }}</a></h1>
-    {{ else if ne .Section "" }}
-      <h1><a href="{{ "/" | relURL }}">{{ .Section }}</a></h1>
-    {{ else }}
-      <h1><a href="{{ "/" | relURL }}">{{ .Title }}</a></h1>
-    {{ end }}
-
     <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}

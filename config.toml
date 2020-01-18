@@ -113,13 +113,7 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  identifier = "fa fa-id-card-o"
-  weight = 2
-
-[[menu.main]]
-  name = "Blog"
+  name = "記事"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
   weight = 3
@@ -131,7 +125,7 @@ canonifyURLs = true
 #   weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "カテゴリ"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
@@ -143,9 +137,15 @@ canonifyURLs = true
 #   weight = 6
 
 [[menu.main]]
-  name = "Privacy Policy"
+  name = "個人情報保護方針"
   url = "/privacy-policy/"
   identifier = "fa fa-list"
+  weight = 6
+
+[[menu.main]]
+  name = "Discord Bot Portal JP"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
   weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your

@@ -3,7 +3,6 @@ title: 招待URLの使用回数を取得する【discord.py】
 date: 2020-01-18T11:44:12.720Z
 categories:
   - discord.py
-  - ext
 draft: false
 ---
 [discord.Invite.uses](https://discordpy.readthedocs.io/en/latest/api.html#discord.Invite.uses)

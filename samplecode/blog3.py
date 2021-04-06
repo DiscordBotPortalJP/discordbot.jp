@@ -1,18 +1,11 @@
----
-author: "1ntegrale9"
-categories: ["discord.py", "Member"]
-date: 2019-12-26T19:13:37+09:00
-title: "サーバー内のメンバー数を取得【discord.py】"
-type: "post"
-draft: false
+import discord
+import os
 
----
+client = discord.Client(
+    intents=discord.Intents.all()
+)
 
-# ソースコード
 
-on_message 内で取得する場合。
-
-```python
 @client.event
 async def on_message(message):
     # /test と打った場合のみ反応するように
@@ -33,10 +26,7 @@ async def on_message(message):
     # BOTのみ
     bot_count = sum(1 for member in guild.members if member.bot)
     await message.channel.send(f'BOT数：{bot_count}')
-```
 
-# ドキュメント
 
-- [discord.Guild.member_count | discord.py](https://discordpy.readthedocs.io/ja/latest/api.html#discord.Guild.member_count)
-- [discord.Guild.members | discord.py](https://discordpy.readthedocs.io/ja/latest/api.html#discord.Guild.members)
-- [Pythonリスト内包表記の使い方 | note.nkmk.me](https://note.nkmk.me/python-list-comprehension/)
+token = os.environ.get('DISCORD_BOT_TOKEN')
+client.run(token)

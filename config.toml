@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://discordbot.jp/"
 languageCode = "ja-jp"
 title = "Discord Bot Portal JP"
 theme = "hugo-future-imperfect"

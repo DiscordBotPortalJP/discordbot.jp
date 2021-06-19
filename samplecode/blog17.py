@@ -14,7 +14,7 @@ async def on_message(message):
     if message.content == "/neko":
         await message.channel.send("にゃーん")
 
-#対策2(関数名変更ver)
+# 対策2(関数名変更ver)
 
 @bot.listen("on_message")  # かっこの中にイベント名を入れる
 async def on_message_neko(message):
